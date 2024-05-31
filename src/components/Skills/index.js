@@ -64,6 +64,7 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  margin-bottom: 28px;
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -89,7 +90,7 @@ const SkillList = styled.div`
   justify-content: center; 
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `
 
 const SkillItem = styled.div`
@@ -133,7 +134,7 @@ const Skills = () => {
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>
-                    <SkillImage src={item.image}/>
+                    <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>
                 ))}
