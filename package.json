@@ -2,7 +2,8 @@
   "name": "rishav-chanda-portfolio",
   "homepage": "https://Bikesh004.github.io/portfolio_",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
+
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
@@ -50,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
